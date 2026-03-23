@@ -1,6 +1,6 @@
 {
   "name": "superpowers-zh",
-  "description": "AI 编程超能力中文版：19 个 skills 库",
+  "description": "AI 编程超能力中文版：20 个 skills 库",
   "owner": {
     "name": "jnMetaCode",
     "url": "https://github.com/jnMetaCode"
@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "superpowers-zh",
-      "description": "AI 编程超能力中文版：19 个 skills（14 翻译 + 5 中国特色原创）",
+      "description": "AI 编程超能力中文版：20 个 skills（14 翻译 + 5 中国特色原创）",
       "version": "1.0.0",
       "source": "./",
       "author": {

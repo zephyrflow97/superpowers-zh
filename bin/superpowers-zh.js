@@ -15,6 +15,7 @@ const TARGETS = [
   { name: 'Cursor',        dir: '.cursor/skills',           detect: '.cursor' },
   { name: 'Codex CLI',     dir: '.codex/skills',            detect: '.codex' },
   { name: 'Kiro',          dir: '.kiro/steering',            detect: '.kiro' },
+  { name: 'DeerFlow',      dir: 'skills/custom',             detect: 'deer_flow' },
   { name: 'Trae',          dir: '.trae/rules',               detect: '.trae' },
   { name: 'Antigravity',   dir: '.antigravity/skills',       detect: '.antigravity' },
   { name: 'VS Code',       dir: '.github/superpowers',       detect: '.github/copilot-instructions.md' },
@@ -36,7 +37,7 @@ function showHelp() {
 
   说明：
     自动检测当前项目使用的 AI 编程工具：
-    Claude Code / Cursor / Codex / Kiro / Trae / Antigravity / VS Code
+    Claude Code / Cursor / Codex / Kiro / DeerFlow / Trae / Antigravity / VS Code
     将 ${countDirs(SKILLS_SRC)} 个 skills 安装到对应目录。
     Claude Code 还会额外安装 agents 到 .claude/agents/。
     如果未检测到任何工具，默认安装到 .claude/skills/ 和 .claude/agents/。

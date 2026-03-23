@@ -16,7 +16,7 @@ Chinese community edition of [superpowers](https://github.com/obra/superpowers),
 
 | 📦 翻译 Skills | 🇨🇳 中国特色 Skills | 🤖 支持工具 |
 |:---:|:---:|:---:|
-| **14** | **5** | **Claude Code / Cursor / Codex / Kiro / Trae / Antigravity / VS Code / Gemini** |
+| **14** | **5** | **Claude Code / Cursor / Codex / Kiro / DeerFlow / Trae / Antigravity / VS Code / Gemini** |
 
 ---
 
@@ -77,6 +77,7 @@ cp -r superpowers-zh/skills /your/project/.claude/skills      # Claude Code
 cp -r superpowers-zh/skills /your/project/.cursor/skills      # Cursor
 cp -r superpowers-zh/skills /your/project/.codex/skills       # Codex CLI
 cp -r superpowers-zh/skills /your/project/.kiro/steering      # Kiro
+cp -r superpowers-zh/skills /your/project/skills/custom       # DeerFlow 2.0
 cp -r superpowers-zh/skills /your/project/.trae/rules         # Trae
 cp -r superpowers-zh/skills /your/project/.antigravity        # Antigravity
 ```
@@ -89,12 +90,13 @@ cp -r superpowers-zh/skills /your/project/.antigravity        # Antigravity
 |------|---------|------|
 | Claude Code | `CLAUDE.md` | 项目根目录 |
 | Kiro | `.kiro/steering/*.md` | 支持 always/globs/手动三种模式 |
+| DeerFlow 2.0 | `skills/custom/*/SKILL.md` | 字节跳动开源 SuperAgent，自动发现自定义 skills |
 | Trae | `.trae/rules/project_rules.md` | 项目级规则 |
 | Antigravity | `GEMINI.md` 或 `AGENTS.md` | 项目根目录 |
 | VS Code | `.github/copilot-instructions.md` | Copilot 自定义指令 |
 | Cursor | `.cursor/rules/*.md` | 项目级规则目录 |
 
-> **详细安装指南**：[Kiro](docs/README.kiro.md) · [Trae](docs/README.trae.md) · [Antigravity](docs/README.antigravity.md) · [VS Code](docs/README.vscode.md) · [Codex](docs/README.codex.md) · [OpenCode](docs/README.opencode.md)
+> **详细安装指南**：[Kiro](docs/README.kiro.md) · [DeerFlow](docs/README.deerflow.md) · [Trae](docs/README.trae.md) · [Antigravity](docs/README.antigravity.md) · [VS Code](docs/README.vscode.md) · [Codex](docs/README.codex.md) · [OpenCode](docs/README.opencode.md)
 
 ---
 
