@@ -1,10 +1,10 @@
-# superpowers-zh（AI 编程超能力 · 中文版）
+# superpowers-zh（AI 编程超能力 · 中文增强版）
 
 🌐 **简体中文** | [English (upstream)](https://github.com/obra/superpowers)
 
-> **让你的 AI 编程助手真正会干活** — 从头脑风暴到代码审查，从 TDD 到调试，每个 skill 都是经过实战验证的工作方法论。
+> 🦸 **superpowers（99k+ ⭐）完整汉化 + 6 个中国原创 skills** — 让 OpenClaw / Claude Code / Cursor / Windsurf / Kiro / Gemini CLI 等 **14 款 AI 编程工具**真正会干活。从头脑风暴到代码审查，从 TDD 到调试，每个 skill 都是经过实战验证的工作方法论。
 
-Chinese community edition of [superpowers](https://github.com/obra/superpowers), including full translations and China-specific development skills.
+Chinese community edition of [superpowers](https://github.com/obra/superpowers) — 20 skills across 14 AI coding tools, including full translations and China-specific development skills.
 
 [![GitHub stars](https://img.shields.io/github/stars/jnMetaCode/superpowers-zh?style=social)](https://github.com/jnMetaCode/superpowers-zh)
 [![npm version](https://img.shields.io/npm/v/superpowers-zh)](https://www.npmjs.com/package/superpowers-zh)
@@ -16,7 +16,7 @@ Chinese community edition of [superpowers](https://github.com/obra/superpowers),
 
 | 📦 翻译 Skills | 🇨🇳 中国特色 Skills | 🤖 支持工具 |
 |:---:|:---:|:---:|
-| **14** | **6** | **Claude Code / Cursor / Codex / Kiro / DeerFlow / Trae / Antigravity / VS Code / Gemini CLI / OpenClaw / Windsurf / Aider / OpenCode / Qwen Code** |
+| **14** | **6** | **OpenClaw / Claude Code / Cursor / Windsurf / Kiro / Gemini CLI / Codex / Aider / Trae / VS Code (Copilot) / DeerFlow / OpenCode / Qwen Code / Antigravity** |
 
 ---
 
@@ -30,17 +30,17 @@ Chinese community edition of [superpowers](https://github.com/obra/superpowers),
 
 | 工具 | 类型 | 一键安装 | 手动安装 |
 |------|------|:---:|:---:|
+| [OpenClaw](https://github.com/anthropics/openclaw) | CLI | `npx superpowers-zh` | `skills/` |
 | [Claude Code](https://claude.ai/code) | CLI | `npx superpowers-zh` | `.claude/skills/` |
 | [Cursor](https://cursor.sh) | IDE | `npx superpowers-zh` | `.cursor/skills/` |
 | [Windsurf](https://codeium.com/windsurf) | IDE | `npx superpowers-zh` | `.windsurf/skills/` |
-| [VS Code](https://code.visualstudio.com) (Copilot) | IDE 插件 | `npx superpowers-zh` | `.github/superpowers/` |
 | [Kiro](https://kiro.dev) | IDE | `npx superpowers-zh` | `.kiro/steering/` |
-| [Trae](https://trae.ai) | IDE | `npx superpowers-zh` | `.trae/rules/` |
-| [Aider](https://aider.chat) | CLI | `npx superpowers-zh` | `.aider/skills/` |
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | CLI | `npx superpowers-zh` | `.gemini/skills/` |
 | [Codex CLI](https://github.com/openai/codex) | CLI | `npx superpowers-zh` | `.codex/skills/` |
+| [Aider](https://aider.chat) | CLI | `npx superpowers-zh` | `.aider/skills/` |
+| [Trae](https://trae.ai) | IDE | `npx superpowers-zh` | `.trae/rules/` |
+| [VS Code](https://code.visualstudio.com) (Copilot) | IDE 插件 | `npx superpowers-zh` | `.github/superpowers/` |
 | [DeerFlow 2.0](https://github.com/bytedance/deer-flow) | Agent 框架 | `npx superpowers-zh` | `skills/custom/` |
-| [OpenClaw](https://github.com/anthropics/openclaw) | CLI | `npx superpowers-zh` | `skills/` |
 | [OpenCode](https://opencode.ai) | CLI | `npx superpowers-zh` | `.opencode/skills/` |
 | [Qwen Code](https://tongyi.aliyun.com/lingma) (通义灵码) | IDE 插件 | `npx superpowers-zh` | `.qwen/skills/` |
 | [Antigravity](https://github.com/anthropics/antigravity) | CLI | `npx superpowers-zh` | `.antigravity/skills/` |
@@ -193,7 +193,7 @@ MIT License — 自由使用，商业或个人均可。
 
 <div align="center">
 
-**AI 编程超能力：让你的 AI 助手真正会干活**
+**🦸 AI 编程超能力：让 OpenClaw / Claude Code / Cursor 等 14 款工具真正会干活**
 
 [Star 本项目](https://github.com/jnMetaCode/superpowers-zh) · [提交 Issue](https://github.com/jnMetaCode/superpowers-zh/issues) · [贡献代码](https://github.com/jnMetaCode/superpowers-zh/pulls)
 
