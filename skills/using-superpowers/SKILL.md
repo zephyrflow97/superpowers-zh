@@ -101,29 +101,10 @@ digraph skill_flow {
 当多个技能可能适用时，使用此顺序：
 
 1. **流程技能优先**（头脑风暴、调试）- 这些决定如何处理任务
-2. **实现技能其次**（前端设计、mcp-builder）- 这些指导执行
+2. **实现技能其次** - 这些指导执行
 
 "让我们构建 X" → 先头脑风暴，再使用实现技能。
 "修复这个 bug" → 先调试，再使用领域特定技能。
-
-## 中国特色技能路由
-
-当检测到以下场景时，**必须**优先调用对应的中国特色技能：
-
-| 场景 | 调用技能 |
-|------|---------|
-| 代码审查且团队使用中文沟通 | **superpowers:chinese-code-review** |
-| 使用 Gitee/Coding/极狐 GitLab | **superpowers:chinese-git-workflow** |
-| 编写中文技术文档或 README | **superpowers:chinese-documentation** |
-| 编写 git commit message（中文项目） | **superpowers:chinese-commit-conventions** |
-| 构建 MCP 服务器/工具 | **superpowers:mcp-builder** |
-
-**判断依据：**
-- 项目中有中文注释、中文 README、或 .gitee 目录 → 启用中文系列技能
-- commit 历史中有中文 → 使用中文提交规范
-- 用户用中文交流 → 所有输出使用中文，优先考虑中国特色技能
-
-中国特色技能与翻译技能**叠加使用**，不互斥。例如：做代码审查时，同时使用 requesting-code-review（流程）+ chinese-code-review（风格）。
 
 ## 技能类型
 

@@ -2,9 +2,9 @@
 
 🌐 **简体中文** | [English (upstream)](https://github.com/obra/superpowers)
 
-> 🦸 **superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills** — 让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 **16 款 AI 编程工具**真正会干活。从头脑风暴到代码审查，从 TDD 到调试，每个 skill 都是经过实战验证的工作方法论。
+> 🦸 **superpowers（116k+ ⭐）完整汉化** — 让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 **16 款 AI 编程工具**真正会干活。从头脑风暴到代码审查，从 TDD 到调试，每个 skill 都是经过实战验证的工作方法论。
 
-Chinese community edition of [superpowers](https://github.com/obra/superpowers) — 20 skills across 16 AI coding tools, including full translations and China-specific development skills.
+Chinese community edition of [superpowers](https://github.com/obra/superpowers) — 14 translated skills across 16 AI coding tools.
 
 <!-- 效果对比 -->
 <table>
@@ -41,9 +41,9 @@ AI：在开始实现之前，我需要了解几个关键问题：
 
 ### 📊 项目规模
 
-| 📦 翻译 Skills | 🇨🇳 中国特色 Skills | 🤖 支持工具 |
-|:---:|:---:|:---:|
-| **14** | **6** | **Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI / Codex / Aider / Trae / VS Code (Copilot) / DeerFlow / OpenCode / OpenClaw / Qwen Code / Antigravity** |
+| 📦 翻译 Skills | 🤖 支持工具 |
+|:---:|:---:|
+| **14** | **Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI / Codex / Aider / Trae / VS Code (Copilot) / DeerFlow / OpenCode / OpenClaw / Qwen Code / Antigravity** |
 
 ---
 
@@ -51,7 +51,7 @@ AI：在开始实现之前，我需要了解几个关键问题：
 
 [superpowers](https://github.com/obra/superpowers) 是目前最火的 AI 编程 skills 框架（116k+ stars），为 AI 编程工具提供**系统化的工作方法论**。
 
-**superpowers-zh** 在完整翻译的基础上，新增了面向中国开发者的特色 skills。
+**superpowers-zh** 提供 superpowers 的完整中文翻译版本。
 
 ### 🤖 支持 16 款主流 AI 编程工具
 
@@ -74,7 +74,7 @@ AI：在开始实现之前，我需要了解几个关键问题：
 | [Qwen Code](https://tongyi.aliyun.com/lingma) (通义灵码) | IDE 插件 | `npx superpowers-zh` | `.qwen/skills/` |
 | [Antigravity](https://github.com/anthropics/antigravity) | CLI | `npx superpowers-zh` | `.antigravity/skills/` |
 
-> 运行 `npx superpowers-zh` 会自动检测你项目中使用的工具，将 20 个 skills 安装到正确位置。
+> 运行 `npx superpowers-zh` 会自动检测你项目中使用的工具，将 14 个 skills 安装到正确位置。
 
 ### 翻译的 Skills（14 个）
 
@@ -94,17 +94,6 @@ AI：在开始实现之前，我需要了解几个关键问题：
 | **完成开发分支** (finishing-a-development-branch) | 合并/PR/保留/丢弃四选一 |
 | **编写 Skills** (writing-skills) | 创建新 skill 的方法论 |
 | **使用 Superpowers** (using-superpowers) | 元技能：如何调用和优先使用 skills |
-
-### 🇨🇳 中国特色 Skills（6 个）
-
-| Skill | 用途 | 上游有吗？ |
-|-------|------|:---:|
-| **中文代码审查** (chinese-code-review) | 符合国内团队文化的代码审查规范 | 无 |
-| **中文 Git 工作流** (chinese-git-workflow) | 适配 Gitee/Coding/极狐 GitLab | 无 |
-| **中文技术文档** (chinese-documentation) | 中文排版规范、中英混排、告别机翻味 | 无 |
-| **中文提交规范** (chinese-commit-conventions) | 适配国内团队的 commit message 规范 | 无 |
-| **MCP 服务器构建** (mcp-builder) | 构建生产级 MCP 工具，扩展 AI 能力边界 | 无 |
-| **工作流执行器** (workflow-runner) | 在 AI 工具内运行多角色 YAML 工作流 | 无 |
 
 ---
 
@@ -172,13 +161,8 @@ cp -r superpowers-zh/skills /your/project/.qwen/skills       # Qwen Code
 
 | 特性 | superpowers (英文) | superpowers-zh (中文) |
 |------|-------------------|----------------------|
-| Skills 数量 | 14 | **20**（14 翻译 + 6 原创） |
+| Skills 数量 | 14 | 14（完整翻译） |
 | 语言 | 英文 | 中文（技术术语保留英文） |
-| 代码审查规范 | 西方直接风格 | 适配国内团队沟通文化 |
-| Git 平台 | GitHub 为主 | GitHub + Gitee + Coding + 极狐 |
-| Git 提交规范 | 无 | Conventional Commits 中文适配 |
-| 文档规范 | 英文 | 中文排版规范 + 中英混排 |
-| MCP 构建 | 无 | MCP 服务器构建方法论 |
 | 社区 | Discord | 微信公众号 + 微信群 |
 
 ---
