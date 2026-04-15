@@ -26,8 +26,8 @@ Fetch and follow instructions from https://raw.githubusercontent.com/jnMetaCode/
 
 2. 创建 skills 符号链接：
    ```bash
-   mkdir -p ~/.agents/skills
-   ln -s ~/.codex/superpowers-zh/skills ~/.agents/skills/superpowers
+   mkdir -p ~/.codex/skills
+   ln -s ~/.codex/superpowers-zh/skills ~/.codex/skills/superpowers
    ```
 
 3. 重启 Codex。
@@ -43,16 +43,16 @@ Fetch and follow instructions from https://raw.githubusercontent.com/jnMetaCode/
 使用 junction 代替符号链接（无需开发者模式）：
 
 ```powershell
-New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.agents\skills"
-cmd /c mklink /J "$env:USERPROFILE\.agents\skills\superpowers" "$env:USERPROFILE\.codex\superpowers-zh\skills"
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.codex\skills"
+cmd /c mklink /J "$env:USERPROFILE\.codex\skills\superpowers" "$env:USERPROFILE\.codex\superpowers-zh\skills"
 ```
 
 ## 工作原理
 
-Codex 原生支持 skill 发现——启动时扫描 `~/.agents/skills/` 目录，解析 SKILL.md 的 frontmatter，按需加载 skills。通过一个符号链接即可注册所有 skills：
+Codex 原生支持 skill 发现——启动时扫描 `~/.codex/skills/` 目录，解析 SKILL.md 的 frontmatter，按需加载 skills。通过一个符号链接即可注册所有 skills：
 
 ```
-~/.agents/skills/superpowers/ → ~/.codex/superpowers-zh/skills/
+~/.codex/skills/superpowers/ → ~/.codex/superpowers-zh/skills/
 ```
 
 `using-superpowers` skill 会自动被发现并强制执行 skill 使用纪律——无需额外配置。
@@ -75,12 +75,12 @@ Skills 通过符号链接即时更新。
 ## 卸载
 
 ```bash
-rm ~/.agents/skills/superpowers
+rm ~/.codex/skills/superpowers
 ```
 
 **Windows (PowerShell):**
 ```powershell
-Remove-Item "$env:USERPROFILE\.agents\skills\superpowers"
+Remove-Item "$env:USERPROFILE\.codex\skills\superpowers"
 ```
 
 可选：删除克隆的仓库 `rm -rf ~/.codex/superpowers-zh`

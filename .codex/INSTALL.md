@@ -10,19 +10,19 @@
 
 1. **克隆 superpowers-zh 仓库：**
    ```bash
-   git clone https://github.com/jnMetaCode/superpowers-zh.git ~/.codex/superpowers
+   git clone https://github.com/jnMetaCode/superpowers-zh.git ~/.codex/superpowers-zh
    ```
 
 2. **创建 skills 符号链接：**
    ```bash
-   mkdir -p ~/.agents/skills
-   ln -s ~/.codex/superpowers/skills ~/.agents/skills/superpowers
+   mkdir -p ~/.codex/skills
+   ln -s ~/.codex/superpowers-zh/skills ~/.codex/skills/superpowers
    ```
 
    **Windows (PowerShell)：**
    ```powershell
-   New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.agents\skills"
-   cmd /c mklink /J "$env:USERPROFILE\.agents\skills\superpowers" "$env:USERPROFILE\.codex\superpowers\skills"
+   New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.codex\skills"
+   cmd /c mklink /J "$env:USERPROFILE\.codex\skills\superpowers" "$env:USERPROFILE\.codex\superpowers\skills"
    ```
 
 3. **重启 Codex**（退出并重新启动 CLI）以发现 skills。
@@ -33,7 +33,7 @@
 
 1. **更新仓库：**
    ```bash
-   cd ~/.codex/superpowers && git pull
+   cd ~/.codex/superpowers-zh && git pull
    ```
 
 2. **创建 skills 符号链接**（上面的步骤 2）——这是新的发现机制。
@@ -45,7 +45,7 @@
 ## 验证
 
 ```bash
-ls -la ~/.agents/skills/superpowers
+ls -la ~/.codex/skills/superpowers
 ```
 
 你应该看到一个符号链接（Windows 上为目录连接），指向你的 superpowers skills 目录。
@@ -53,7 +53,7 @@ ls -la ~/.agents/skills/superpowers
 ## 更新
 
 ```bash
-cd ~/.codex/superpowers && git pull
+cd ~/.codex/superpowers-zh && git pull
 ```
 
 Skills 通过符号链接即时更新。
@@ -61,7 +61,7 @@ Skills 通过符号链接即时更新。
 ## 卸载
 
 ```bash
-rm ~/.agents/skills/superpowers
+rm ~/.codex/skills/superpowers
 ```
 
-可选：删除克隆的仓库：`rm -rf ~/.codex/superpowers`。
+可选：删除克隆的仓库：`rm -rf ~/.codex/superpowers-zh`。

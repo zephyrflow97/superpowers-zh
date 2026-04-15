@@ -4,9 +4,8 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "description": "AI 编程超能力中文增强版 — superpowers（99k+ ⭐）完整汉化，支持 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款工具",
+  "description": "AI 编程超能力中文增强版 — superpowers 完整汉化,支持 Claude Code 和 Codex CLI",
   "type": "module",
-  "main": ".opencode/plugins/superpowers.js",
   "bin": {
     "superpowers-zh": "bin/superpowers-zh.js"
   },
@@ -17,12 +16,7 @@
     "commands/",
     "hooks/",
     ".claude-plugin/",
-    ".cursor-plugin/",
     ".codex/INSTALL.md",
-    ".opencode/INSTALL.md",
-    ".opencode/plugins/",
-    "GEMINI.md",
-    "gemini-extension.json",
     "docs/",
     "README.md",
     "LICENSE"
@@ -30,22 +24,7 @@
   "keywords": [
     "superpowers",
     "claude-code",
-    "cursor",
     "codex",
-    "gemini",
-    "kiro",
-    "deerflow",
-    "trae",
-    "antigravity",
-    "openclaw",
-    "windsurf",
-    "aider",
-    "opencode",
-    "qwen",
-    "vscode",
-    "copilot",
-    "hermes",
-    "hermes-agent",
     "ai-coding",
     "skills",
     "chinese",
@@ -60,5 +39,8 @@
   },
   "homepage": "https://github.com/jnMetaCode/superpowers-zh",
   "author": "jnMetaCode",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/render/render.test.js"
+  }
 }
